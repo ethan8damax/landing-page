@@ -1,5 +1,160 @@
-* {
+body {
+    display: flex;
+    flex-direction: column;
     font-family: Roboto;
-    background-color: #1F2937;
-    color: #F9FAF8;
+}
+
+img {
+    width: 450px;
+    height: auto;
+}
+
+button {
+    background-color: #3882F6;
+    color: #f9faf8;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 40px;
+    font-size: 20px;
+}
+/* Header */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    text-align: center;
+    font-family: Roboto;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 16px;
+    margin: -10px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none; 
+    font-size: 18px;
+}
+
+/* section 1 */
+#section-one {
+    display: flex;
+    justify-content: space-around;
+    gap: 180px;
+    background-color: #1f2937;
+    margin: -10px;
+    padding: 50px 215px 90px;
+}
+
+#section-one-main h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    padding-top: 20px;
+}
+
+#section-one-main p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: -20px
+}
+
+#section-one-main button {
+    margin-top: 5px;
+}
+
+#section-one img {
+    margin-top: 40px;
+}
+/* section 2 */
+
+#section-two h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin: 75px 0;
+}
+
+#random-information-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 150px;
+}
+
+.info {
+   width: 155px;
+   text-align: center;
+}
+
+.blue-box {
+    border: #3882F6 solid 4px;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+/* section 3 */
+#section-three {
+    background-color: #e5e7eb;
+    margin: -10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 150px 350px;
+}
+#section-three p {
+    font-size: 36px;
+    font-style: italic;
+    font-color: #1f2937;
+}
+
+#section-three #author {
+    text-align: end;
+    font-size: 30px;
+    font-style: normal; 
+    color: #1f2937;
+    font-weight: 900;
+    margin-top: -20px;
+}
+
+/* section 4 */
+ #section-four {
+    display: flex;
+    align-items: center;;
+    background-color: #3882F6;
+    margin: 75px 150px;
+    border-radius: 10px;
+ }
+
+ #section-four #call-to-action {
+    display: inline-block;
+    color: #f9faf8;
+    padding: 20px 150px;
+ }
+
+ #call-to-action h2 {
+    margin-bottom: -10px;
+ }
+
+ #section-four button {
+    background-color: #3882F6;
+    border: white solid 2px;
+    margin-left: 100px;
+ }
+/* footer */
+footer {
+    text-align: center;
+    font-size: 15px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    margin: -10px;
+    padding: 15px;
 }
